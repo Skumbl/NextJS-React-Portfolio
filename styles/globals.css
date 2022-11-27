@@ -23,3 +23,8 @@ a {
   font-family: "Courier";
   src: url('../public/CourierPrime-Regular.ttf');
 }
+
+@font-face {
+  font-family: "Courier-Bold";
+  src: url('../public/CourierPrime-Bold.ttf');
+}
