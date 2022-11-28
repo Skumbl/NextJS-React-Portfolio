@@ -32,8 +32,8 @@ export default function Home() {
               py-2 rounded-md ml-8 dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">Resume</Link></li>
             </ul>
           </nav>
-          <div className='font-courier text-start max-w-md m-auto py-0'>
-            <div className='flex space-x-10'>
+          <div className='font-courier text-start max-w-md m-auto'>
+            <div className='flex justify-center'>
               <div className='py-12'>
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
               <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
