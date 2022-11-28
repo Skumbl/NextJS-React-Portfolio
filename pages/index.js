@@ -40,7 +40,7 @@ export default function Home() {
               </div>
               <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4'/>
             </div>
-            <p className='text-start text-sm text-gray-800 dark:text-slate-300'>
+            <p className='text-start text-sm text-gray-800 dark:text-slate-300 px-1'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
             This is the website I built a weekend from the ground up. I enjoy programming in C and Java, with skills in Python, 
             JavaScript, JavaScript Frameworks, Assembly, and others. I love software development, it is my passion and one 
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </section> 
         <section className="bg-white dark:bg-gray-800 font-courierBold">
-          <div className=' text-md max-w-md m-auto px-3 text-black dark:text-white'>
+          <div className=' text-md max-w-md m-auto px-1 text-black dark:text-white'>
             <h3 className='text-lg'>&gt; work experience</h3>
 
             <div className='grid grid-cols-4 text-sm font-courier text-start'>
