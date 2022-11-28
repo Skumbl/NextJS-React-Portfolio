@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {WiMoonAltThirdQuarter} from 'react-icons/wi';
 import {AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail} from 'react-icons/ai';
-//import Image from "next/image";
+import Image from "next/image";
 //import profile from "../public/profile.PNG"
 import { useState } from 'react';
 
@@ -38,7 +38,7 @@ export default function Home() {
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
               <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
               </div>
-            
+              <img src="../public/profile.PNG" alt="" />
             </div>
             <p className='text-start text-sm text-gray-800 dark:text-slate-300 py-2'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
