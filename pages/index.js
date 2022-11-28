@@ -32,7 +32,7 @@ export default function Home() {
               py-2 rounded-md ml-8 dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">Resume</Link></li>
             </ul>
           </nav>
-          <div className='font-courier text-start max-w-md m-auto px-3 py-0'>
+          <div className='font-courier text-start max-w-md m-auto px-2 py-0'>
             <div className='flex justify-around'>
               <div className='py-12'>
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
@@ -40,7 +40,7 @@ export default function Home() {
               </div>
               <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4 mx-1 '/>
             </div>
-            <p className='text-start text-sm text-gray-800 dark:text-slate-300 py-2'>
+            <p className='text-start text-sm text-gray-800 dark:text-slate-300'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
             This is the website I built a weekend from the ground up. I enjoy programming in C and Java, with skills in Python, 
             JavaScript, JavaScript Frameworks, Assembly, and others. I love software development, it is my passion and one 
