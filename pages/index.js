@@ -32,13 +32,13 @@ export default function Home() {
               py-2 rounded-md ml-8 dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">Resume</Link></li>
             </ul>
           </nav>
-          <div className='font-courier text-start max-w-md m-auto px-2 py-0'>
-            <div className='flex justify-around'>
+          <div className='font-courier text-start max-w-md m-auto py-0'>
+            <div className='flex space-x-10'>
               <div className='py-12'>
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
               <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
               </div>
-              <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4 mx-1 '/>
+              <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4'/>
             </div>
             <p className='text-start text-sm text-gray-800 dark:text-slate-300'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
