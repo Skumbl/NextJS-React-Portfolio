@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {WiMoonAltThirdQuarter} from 'react-icons/wi';
 import {AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail} from 'react-icons/ai';
 import Image from "next/image";
-//import profile from "../public/profile.PNG"
+import profile from "../public/profile.jpg"
 import { useState } from 'react';
 
 import Link from 'next/link';
