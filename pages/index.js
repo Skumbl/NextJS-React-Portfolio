@@ -70,7 +70,7 @@ export default function Home() {
               </div>
               <div className='col-span-1 py-1'>2020</div>
               <div className='col-span-3 py-1'> <span className='text-gray-500'>AWS</span> 
-              <p>maintained and repaired AWS server infastructure, preformed hardware troubleshooting and diagnostics</p>
+              <p>maintained and repaired AWS server infastructure, performed hardware troubleshooting and diagnostics</p>
               </div>
             </div>
 
