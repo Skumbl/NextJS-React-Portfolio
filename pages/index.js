@@ -38,7 +38,7 @@ export default function Home() {
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
               <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
               </div>
-            <Image src={profile} className= 'relative mx-auto w-40 h-40 rounded-full overflow-hidden p-2'/>
+            <Image src={require('../public/profile.PNG')} className= 'relative mx-auto w-40 h-40 rounded-full overflow-hidden p-2'/>
             </div>
             <p className='text-start text-sm text-gray-800 dark:text-slate-300 py-2'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
