@@ -29,6 +29,9 @@ export default function Home() {
           </li>
         </ul>
       </nav>
+      <div>
+        <h1 className='font-courier text-center justify-center'>Site Under Construction</h1>
+      </div>
     </section>
     </main>
     </div>
