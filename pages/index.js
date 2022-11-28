@@ -41,10 +41,10 @@ export default function Home() {
               <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4'/>
             </div>
             <p className='text-start text-sm text-gray-800 dark:text-slate-300 px-2'>
-            Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer in my spare time. 
-            This is the website I built a weekend from the ground up. I enjoy programming in C and Java, with skills in Python, 
-            JavaScript, JavaScript Frameworks, Assembly, and others. I love software development, it is my passion and one 
-            that I am looking to make into a career.
+            Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer 
+            in my spare time. This is the website I built in a weekend from the ground up. I enjoy programming 
+            in C and Java, with skills in Python, JavaScript, JavaScript Frameworks, Assembly, and others. I love 
+            software development, it is my passion and one that I am looking to make into a career.
             </p>
           </div>
           <div className='text-3xl flex justify-center text-gray-600 gap-16 py-3 dark:text-white'>
@@ -66,11 +66,11 @@ export default function Home() {
             <div className='grid grid-cols-4 text-sm font-courier text-start'>
               <div className='col-span-1 py-1'>2022</div>
               <div className='col-span-3 py-1'> <span className='text-gray-500'>ID Tech</span> 
-              <p>instructed highschoolers in JavaScript, C#, and tought object-oriented programming</p>
+              <p>instructed highschoolers in JavaScript, C#, and taught object-oriented programming</p>
               </div>
               <div className='col-span-1 py-1'>2020</div>
               <div className='col-span-3 py-1'> <span className='text-gray-500'>AWS</span> 
-              <p>maintained and repaired AWS server infastructure, performed hardware troubleshooting and diagnostics</p>
+              <p>maintained and repaired AWS server infrastructure, performed hardware troubleshooting and diagnostics</p>
               </div>
             </div>
 
