@@ -21,7 +21,7 @@ export default function Home() {
         <section className='bg-white dark:bg-gray-800'>
           <nav className='p-10 mb-12 flex justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
-              <Link className='hover:text-gray-500' href="/">&gt; Jan Arvik</Link>
+              <Link className='hover:text-gray-500' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
             <ul className='flex items-center'>
               <li>
@@ -38,7 +38,7 @@ export default function Home() {
               <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
               <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
               </div>
-              <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden my-4'/>
+              <Image src={profile} className= 'w-28 h-28 rounded-full overflow-hidden border-4 my-4'/>
             </div>
             <p className='text-start text-sm text-gray-800 dark:text-slate-300 px-2'>
             Hi, my name is Jan Arvik. I'm a computer science student at Virginia Tech and a developer 
