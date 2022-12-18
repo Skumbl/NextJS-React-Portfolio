@@ -21,12 +21,12 @@ export default function Home() {
         <section className='bg-white dark:bg-gray-800'>
 
 
-          <nav className='p-10 mb-12 md:max-2xl:flex justify-between'>
+          <nav className='p-10 mb-12 sm:max-2xl:flex justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
-              <Link className='hover:text-gray-500' href="/">JanArvik: ~$ ls homepage</Link>
+              <Link className='hover:text-gray-500 flex justify-center' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
 
-            <ul className='flex items-center sm:justify-end'>
+            <ul className='flex items-center justify-center'>
               <li>
                 <WiMoonAltThirdQuarter onClick={() => setDarkMode(!darkMode)}
                   className='cursor-pointer text-2xl dark:text-white' />
