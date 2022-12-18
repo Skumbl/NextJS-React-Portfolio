@@ -26,7 +26,7 @@ export default function Home() {
               <Link className='hover:text-gray-500' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
 
-            <ul className='flex items-center'>
+            <ul className='flex items-center sm:justify-end'>
               <li>
                 <WiMoonAltThirdQuarter onClick={() => setDarkMode(!darkMode)}
                   className='cursor-pointer text-2xl dark:text-white' />
