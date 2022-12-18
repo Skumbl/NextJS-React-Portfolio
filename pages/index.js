@@ -21,7 +21,7 @@ export default function Home() {
         <section className='bg-white dark:bg-gray-800'>
           <nav className='p-10 mb-12 flex justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
-              <Link className='hover:text-gray-500 sm:text-sm sm:px-2' href="/">JanArvik: ~$ ls homepage</Link>
+              <Link className='hover:text-gray-500 sm:ml-1' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
             <ul className='flex items-center'>
               <li>
