@@ -11,7 +11,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <Head>
+      <Head className='bg-white dark:bg-gray-800 h-screen w-screen'>
         <title>Jan Arvik Portfolio</title>
         <meta name="description" content="very cool and swag" />
         <link rel="icon" href="/favicon.ico" />
@@ -21,7 +21,7 @@ export default function Home() {
         <section className='bg-white dark:bg-gray-800'>
           <nav className='p-10 mb-12 flex justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
-              <Link className='hover:text-gray-500' href="/">JanArvik: ~$ ls homepage</Link>
+              <Link className='hover:text-gray-500 sm: text-sm' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
             <ul className='flex items-center'>
               <li>
