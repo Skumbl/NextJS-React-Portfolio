@@ -59,9 +59,11 @@ export default function Home() {
           </a>
           </div>
         </section> 
+
+        {/*basic work experiance, make this better at some point*/}
         <section className="bg-white dark:bg-gray-800 font-courierBold">
           <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-            <h3 className='text-lg'>&gt; work experience</h3>
+            <h3 className='text-lg'>work experience</h3>
 
             <div className='grid grid-cols-4 text-sm font-courier text-start'>
               <div className='col-span-1 py-1'>2022</div>
@@ -73,12 +75,19 @@ export default function Home() {
               <p>maintained and repaired AWS server infrastructure, performed hardware troubleshooting and diagnostics</p>
               </div>
             </div>
-
           </div>
         </section>
+
+        <section className="bg-white dark:bg-gray-800 font-courier pt-4">
+          <div className='flex justify-center'>
+            <Link className='hover:bg-slate-700 font-courier bg-slate-500 text-white px-4
+              py-2 rounded-md dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">Projects</Link>
+            </div>
+        </section>
+        
+        {/* this fixes the weird part at the bottom of the page 🤷‍♂️ */}
         <section>
           <div className='py-10 bg-white dark:bg-gray-800'>
-
           </div>
         </section>
       </main>
