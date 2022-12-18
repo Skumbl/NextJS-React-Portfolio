@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className='bg-white dark:bg-gray-800 h-screen w-screen'>
         <section className='bg-white dark:bg-gray-800'>
-          <nav className='p-10 mb-12 flex justify-between'>
+          <nav className='p-10 mb-12 flex sm:flex-wrap justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
               <Link className='hover:text-gray-500' href="/">JanArvik: ~$ ls homepage</Link>
             </h1>
