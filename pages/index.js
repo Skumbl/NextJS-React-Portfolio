@@ -23,7 +23,7 @@ export default function Home() {
 
           <nav className='p-2 mb-4 sm:max-2xl:p-10 sm:max-2xl:mb-10 sm:max-2xl:flex justify-between'>
             <h1 className='font-courierBold text-xl text-black dark:text-white'>
-              <Link className='hover:text-gray-500 flex justify-center' href="/">JanArvik: ~$ ls homepage</Link>
+              <Link className='hover:text-gray-500 flex justify-center mb-5 sm:max-2xl:m-auto' href="/">Jan_Arvik: ~$ ls homepage</Link>
             </h1>
 
             <ul className='flex items-center justify-center'>
@@ -32,7 +32,7 @@ export default function Home() {
                   className='cursor-pointer text-2xl dark:text-white' />
               </li>
               <li><Link className='hover:bg-slate-700 font-courier bg-slate-500 text-white px-4
-              py-2 rounded-md ml-8 dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">Resume</Link></li>
+              py-2 rounded-md ml-8 dark:bg-slate-900 dark:hover:bg-slate-600' href="resume">cd ./Resume</Link></li>
             </ul>
           </nav>
 
@@ -65,28 +65,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/*basic work experiance, make this better at some point*/}
-        <section className="bg-white dark:bg-gray-800 font-courierBold">
-          <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-            <h3 className='text-lg'>work experience</h3>
-
-            <div className='grid grid-cols-4 text-sm font-courier text-start'>
-              <div className='col-span-1 py-1'>2022</div>
-              <div className='col-span-3 py-1'> <span className='text-gray-500'>ID Tech</span>
-                <p>instructed highschoolers in JavaScript, C#, and taught object-oriented programming</p>
-              </div>
-              <div className='col-span-1 py-1'>2020</div>
-              <div className='col-span-3 py-1'> <span className='text-gray-500'>AWS</span>
-                <p>maintained and repaired AWS server infrastructure, performed hardware troubleshooting and diagnostics</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="bg-white dark:bg-gray-800 font-courier pt-4">
           <div className='flex justify-center'>
             <Link className='hover:bg-slate-700 font-courier bg-slate-500 text-white px-4
-              py-2 rounded-md dark:bg-slate-900 dark:hover:bg-slate-600' href="projects">Personal Projects</Link>
+              py-2 rounded-md dark:bg-slate-900 dark:hover:bg-slate-600' href="projects">cd ./Personal_Projects</Link>
           </div>
         </section>
 
