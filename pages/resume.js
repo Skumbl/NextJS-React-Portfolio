@@ -139,7 +139,13 @@ export default function Home() {
 
                 </section>
 
-                
+                <section className="bg-white dark:bg-gray-800 font-courierBold">
+                    <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
+                        <h3 className='text-lg'>education:</h3>
+                    </div>
+
+                    
+                </section>
 
                 {/* this is my personal bio for my resume 
                 <section className="bg-white dark:bg-gray-800 font-courierBold">
