@@ -44,7 +44,7 @@ export default function Home() {
                 </section>
 
                 {/*reused code from front page as place holder*/}
-                <section className="bg-white dark:bg-gray-800 font-courierBold mb-4">
+                <section className="bg-white dark:bg-gray-800 font-courierBold pb-4">
                     <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
                         <h3 className='text-lg'>professional work experience: </h3>
 
