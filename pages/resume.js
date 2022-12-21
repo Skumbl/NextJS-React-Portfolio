@@ -128,23 +128,31 @@ export default function Home() {
                                 <p>CAD</p>
                                 <SiAutodesk className='text-green-900 dark:text-green-300' />
                             </div>
-                            
+
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Unity</p>
                                 <SiUnity className='text-green-900 dark:text-green-300' />
-                                
+
                             </div>
                         </div>
                     </div>
 
                 </section>
 
-                <section className="bg-white dark:bg-gray-800 font-courierBold">
+                <section className="bg-white dark:bg-gray-800 font-courier">
                     <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h3 className='text-lg'>education:</h3>
+                        <h3 className='text-lg font-courierBold'>education:</h3>
+                        <div className='py-1'><span className='text-green-900 dark:text-green-300'>Virginia Tech</span> - Fall 2023</div>
+                        <div className='py-1' >Bachelor's in Computer Science</div>
+                        <div className='py-1'><span className='text-green-900 dark:text-green-300'>NOVA</span> - Spring 2020</div>
+                        <div className='py-1'>Associates in Computer Science</div>
                     </div>
+                </section>
 
-                    
+
+                <section>
+                    <div className='py-10 bg-white dark:bg-gray-800'>
+                    </div>
                 </section>
 
                 {/* this is my personal bio for my resume 
