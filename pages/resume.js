@@ -12,7 +12,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 
-export default function Home() {
+export default function resume() {
     const [darkMode, setDarkMode] = useState(true);
     return (
         <div className={darkMode ? "dark" : ""}>
@@ -46,7 +46,7 @@ export default function Home() {
                 {/*reused code from front page as place holder*/}
                 <section className="bg-white dark:bg-gray-800 font-courierBold pb-4">
                     <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h3 className='text-lg'>professional work experience: </h3>
+                        <h3 className='text-xl'>professional work experience: </h3>
 
                         {/* grid system used for work experiance */}
                         <div className='grid grid-cols-4 text-sm font-courier text-start'>
@@ -80,7 +80,7 @@ export default function Home() {
                 {/* skills section */}
                 <section className="bg-white dark:bg-gray-800 font-courierBold pb-4">
                     <div className='text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h3 className='text-lg'>skills: </h3>
+                        <h3 className='text-xl'>skills: </h3>
 
                         <div className='grid grid-cols-2 text-md font-courier'>
 
@@ -141,11 +141,11 @@ export default function Home() {
 
                 <section className="bg-white dark:bg-gray-800 font-courier">
                     <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h3 className='text-lg font-courierBold'>education:</h3>
-                        <div className='py-1'><span className='text-green-900 dark:text-green-300'>Virginia Tech</span> - Fall 2023</div>
-                        <div className='py-1' >Bachelor's in Computer Science</div>
-                        <div className='py-1'><span className='text-green-900 dark:text-green-300'>NOVA</span> - Spring 2020</div>
-                        <div className='py-1'>Associates in Computer Science</div>
+                        <h3 className='text-xl font-courierBold'>education:</h3>
+                        <div className='py-1 text-sm'><span className='text-lg text-green-900 dark:text-green-300'>Virginia Tech</span> - Fall 2023</div>
+                        <div className='py-1 text-sm text-center' >Bachelor's in Computer Science</div>
+                        <div className='py-1 text-sm'><span className=' text-lg text-green-900 dark:text-green-300'>NOVA</span> - Spring 2020</div>
+                        <div className='py-1 text-sm text-center'>Associates in Computer Science</div>
                     </div>
                 </section>
 
@@ -155,25 +155,6 @@ export default function Home() {
                     </div>
                 </section>
 
-                {/* this is my personal bio for my resume 
-                <section className="bg-white dark:bg-gray-800 font-courierBold">
-                    <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h3 className='text-lg'>about me:</h3>
-                    </div>
-                    <div className='font-courier text-sm max-w-md m-auto px-2 text-black dark:text-white'>
-                        <p>
-                            Hello, my name is Jan Arvik. I am currently a 22-year-old senior at Virginia Tech earning a degree in computer science.
-                            I love working with computers, as I started learning how to program and build computers at the age of 14 and which has become a
-                            lifelong passion. I directed a team in cyber patriot in high school and was hired at AWS as a service technician at 19. <br />
-                            I enjoy learning new programming languages and frameworks in my free time. <br />
-                            My favorite languages to write in are C, TypeScript, and Rust. <br />
-                            I am multi-faceted and can be placed in any development team regardless of task and adapt to their needs.
-                            I am a hard worker that is focused on results and am willing to bring that energy to any company that I am lucky enough to
-                            grow with.
-                        </p>
-                    </div>
-                </section>
-                */}
             </main>
         </div>
     )

@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import { WiMoonAltThirdQuarter } from 'react-icons/wi';
 
 export default function project() {
     return (
