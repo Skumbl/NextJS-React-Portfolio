@@ -46,7 +46,7 @@ export default function resume() {
                         </ul>
                     </nav>
                     <div className='text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h1 className='font-courier text-3xl text-left mb-4 text-green-900 dark:text-green-300'>Resume</h1>
+                        <h1 className='font-courier text-3xl text-left mb-4 text-green-700 dark:text-green-300'>Resume</h1>
                     </div>
                 </section>
 
@@ -59,24 +59,24 @@ export default function resume() {
                         <div className='grid grid-cols-4 text-sm font-courier text-start'>
 
                             <div className='col-span-1 py-1'>current</div>
-                            <div className='col-span-3 py-1'> <span className='text-green-900 dark:text-green-300'>Private CS Tutor</span>
+                            <div className='col-span-3 py-1'> <span className='text-green-700 dark:text-green-300'>Private CS Tutor</span>
                                 <p>tutored computer science students at Virginia Tech in advanced data structures and algorithms
                                     as well as in low-level computer organization
                                 </p>
                             </div>
 
                             <div className='col-span-1 py-1'>2022</div>
-                            <div className='col-span-3 py-1'> <span className='text-green-900 dark:text-green-300'>ID Tech</span>
+                            <div className='col-span-3 py-1'> <span className='text-green-700 dark:text-green-300'>ID Tech</span>
                                 <p>instructed highschoolers in JavaScript, C#, and taught object-oriented programming</p>
                             </div>
 
                             <div className='col-span-1 py-1'>2020</div>
-                            <div className='col-span-3 py-1'> <span className='text-green-900 dark:text-green-300'>AWS</span>
+                            <div className='col-span-3 py-1'> <span className='text-green-700 dark:text-green-300'>AWS</span>
                                 <p>maintained and repaired AWS server infrastructure, performed hardware troubleshooting and diagnostics</p>
                             </div>
 
                             <div className='col-span-1 py-1'>2019</div>
-                            <div className='col-span-3 py-1'> <span className='text-green-900 dark:text-green-300'>Code Ninjas</span>
+                            <div className='col-span-3 py-1'> <span className='text-green-700 dark:text-green-300'>Code Ninjas</span>
                                 <p>tutored kids in basic JavaScript and the Unity engine to make games</p>
                             </div>
 
@@ -93,52 +93,52 @@ export default function resume() {
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105' >
                                 <p>C</p>
-                                <GoFileBinary className='text-green-900 dark:text-green-300' />
+                                <GoFileBinary className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Java</p>
-                                <FaMugHot className='text-green-900 dark:text-green-300' />
+                                <FaMugHot className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>JavaScript</p>
-                                <SiJavascript className='text-green-900 dark:text-green-300' />
+                                <SiJavascript className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>TypeScript</p>
-                                <SiTypescript className='text-green-900 dark:text-green-300' />
+                                <SiTypescript className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Rust</p>
-                                <SiRust className='text-green-900 dark:text-green-300' />
+                                <SiRust className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Python</p>
-                                <TbBrandPython className='text-green-900 dark:text-green-300' />
+                                <TbBrandPython className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>App Debugging</p>
-                                <BiBug className='text-green-900 dark:text-green-300' />
+                                <BiBug className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Team Leadership</p>
-                                <AiOutlineTeam className='text-green-900 dark:text-green-300' />
+                                <AiOutlineTeam className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>CAD</p>
-                                <SiAutodesk className='text-green-900 dark:text-green-300' />
+                                <SiAutodesk className='text-green-700 dark:text-green-300' />
                             </div>
 
                             <div className='p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg text-center hover:scale-105'>
                                 <p>Unity</p>
-                                <SiUnity className='text-green-900 dark:text-green-300' />
+                                <SiUnity className='text-green-700 dark:text-green-300' />
 
                             </div>
                         </div>
@@ -149,9 +149,9 @@ export default function resume() {
                 <section className="bg-white dark:bg-gray-800 font-courier">
                     <div className=' text-md max-w-md m-auto px-2 text-black dark:text-white'>
                         <h3 className='text-xl font-courierBold'>education:</h3>
-                        <div className='py-1 text-sm'><span className='text-lg text-green-900 dark:text-green-300'>Virginia Tech</span> - Fall 2023</div>
+                        <div className='py-1 text-sm'><span className='text-lg text-green-700 dark:text-green-300'>Virginia Tech</span> - Fall 2023</div>
                         <div className='py-1 text-sm text-center' >Bachelor's in Computer Science</div>
-                        <div className='py-1 text-sm'><span className=' text-lg text-green-900 dark:text-green-300'>NOVA</span> - Spring 2020</div>
+                        <div className='py-1 text-sm'><span className=' text-lg text-green-700 dark:text-green-300'>NOVA</span> - Spring 2020</div>
                         <div className='py-1 text-sm text-center'>Associates in Computer Science</div>
                     </div>
                 </section>

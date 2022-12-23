@@ -10,7 +10,7 @@ export default function project() {
             <Head>
                 <title>Jan Arvik Projects</title>
                 <meta name="description" content="very cool and swag" />
-                
+
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -34,8 +34,16 @@ export default function project() {
                         </ul>
                     </nav>
                     <div className='text-md max-w-md m-auto px-2 text-black dark:text-white'>
-                        <h1 className='font-courier text-3xl text-left mb-4 text-green-900 dark:text-green-300'>Personal Projects</h1>
+                        <h1 className='font-courier text-3xl text-left mb-4 text-green-700 dark:text-green-300'>Personal Projects</h1>
                     </div>
+                </section>
+
+                <section className='max-w-md m-auto px-2 bg-white dark:bg-gray-800 font-courierBold'>
+                    <div className=''>Next-JS Portfolio</div>
+                    <div>Assembler</div>
+                    <div>Best Fit Memory Manager</div>
+                    <div>LRU Buffer Pool</div>
+                    <div>Discord DnD Manager</div>
                 </section>
 
 

@@ -46,7 +46,7 @@ export default function Home() {
                     <div className='font-courier text-start max-w-md m-auto'>
                         <div className='flex justify-center'>
                             <div className='py-12'>
-                                <h2 className='text-3xl text-green-900 font-medium dark:text-green-300'>Jan Arvik</h2>
+                                <h2 className='text-3xl text-green-700 font-medium dark:text-green-300'>Jan Arvik</h2>
                                 <h3 className='text-xl text-black dark:text-white'>Student and Developer</h3>
                             </div>
                             <Image src={profile} className='w-28 h-28 rounded-full overflow-hidden border-4 my-4' />
