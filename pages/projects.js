@@ -38,14 +38,13 @@ export default function project() {
                     </div>
                 </section>
 
-                <section className='max-w-md m-auto px-2 bg-white dark:bg-gray-800 font-courierBold'>
-                    <div className=''>Next-JS Portfolio</div>
-                    <div>Assembler</div>
-                    <div>Best Fit Memory Manager</div>
-                    <div>LRU Buffer Pool</div>
-                    <div>Discord DnD Manager</div>
+                <section className='max-w-md m-auto px-2 bg-white dark:bg-gray-800 font-courierBold text-center'>
+                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>Next-JS Portfolio</div>
+                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>Assembler</div>
+                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>Best Fit Memory Manager</div>
+                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>LRU Buffer Pool</div>
+                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>Discord DnD Manager</div>
                 </section>
-
 
             </main>
         </div>
