@@ -91,9 +91,9 @@ This analysis primarily consisted of the team finding Work Access Notes and Work
                         <h1 className='text-xl'>
                             Phase 2
                         </h1>
-                        <h3>Prototype</h3>
+                        <h3>Design</h3>
                         <p>
-                        For the prototyping stage of development, our team started by brainstorming and generating a ton of ideas. We encouraged open and creative discussions, using each team member's unique viewpoints and expertise. Once we narrowed down our ideas, we spent time storyboarding our use case to visualize the user experience to show both physical and emotional use. We also created persona models to better understand the needs and issues of our users. 
+                        For the design stage of development, our team started by brainstorming and generating a ton of ideas. We encouraged open and creative discussions, using each team member's unique viewpoints and expertise. Once we narrowed down our ideas, we spent time storyboarding our use case to visualize the user experience to show both physical and emotional use. We also created persona models to better understand the needs and issues of our users. 
                         </p>
                         <p>
                         ====================
@@ -110,7 +110,15 @@ This analysis primarily consisted of the team finding Work Access Notes and Work
                         py-2 rounded-md dark:bg-slate-900 dark:hover:bg-slate-600' href="https://docs.google.com/document/d/1tblySbtHv7z-44hKC8TPy0cdL8bQv0OJ2kTQiFMwyR0/edit?usp=sharing">View Full Report </Link>
                         </p>
                     </div>
-                    <div className='text-xl text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>Phase 3</div>
+                    <div className='text-sm text-black dark:text-white p-5 m-2 dark:bg-slate-700 shadow-lg rounded-lg'>
+                        <h1 className='text-xl'>
+                            Phase 3
+                        </h1>
+                        <h3>Prototyping</h3>
+                        <p>
+                        After receiving input on our wireframes, we took their suggestions into account to refine our design. Users pointed out issues such as inconsistent design and an unintuitive user interface. We carefully reviewed and integrated their feedback into our prototyping process, making vital changes to ensure a better user experience. To further validate our changes, we made a mock-up that simulated the flow of the finished app. This lets us test the usability and functionality of the prototype, and make any further changes as needed. By incorporating user feedback through mock-ups, we were able to create a more user-friendly and practical design for our web app. 
+                        </p>
+                    </div>
                 </section>
                 <section className='pb-9'>
 
