@@ -117,12 +117,12 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="bg-white dark:bg-gray-800 font-courier pt-4">
+                {/* <section className="bg-white dark:bg-gray-800 font-courier pt-4">
                     <div className='flex justify-center'>
                         <Link className='hover:bg-slate-700 font-courier bg-slate-500 text-white px-4
               py-2 rounded-md dark:bg-slate-900 dark:hover:bg-slate-600' href="hci">cd ./HCI_Project</Link>
                     </div>
-                </section>
+                </section> */}
 
         {/* this fixes the weird part at the bottom of the page 🤷‍♂️ */}
         <section>
