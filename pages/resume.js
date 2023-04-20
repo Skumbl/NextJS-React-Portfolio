@@ -24,7 +24,7 @@ export default function resume() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Jan Arvik Resume</title>
-        <meta name="description" content="very cool and swag" />
+        <meta name="description" content="Professional Code Enjoyer" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -17,7 +17,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head className="w-screen h-screen bg-white dark:bg-gray-800">
         <title>Jan Arvik Portfolio</title>
-        <meta name="description" content="very cool and swag" />
+        <meta name="description" content="Professional Code Enjoyer" />
 
         <link
           rel="apple-touch-icon"

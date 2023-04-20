@@ -10,7 +10,7 @@ export default function project() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Jan Arvik Projects</title>
-        <meta name="description" content="very cool and swag" />
+        <meta name="description" content="Professional Code Enjoyer" />
 
         <link
           rel="apple-touch-icon"
