@@ -88,13 +88,10 @@ export default function Home() {
               />
             </div>
             <p className="px-2 text-sm text-gray-800 text-start dark:text-slate-300">
-              Hi, my name is Jan Arvik. I'm a computer science student at
-              Virginia Tech and a developer in my spare time. This is the
-              website I built in a weekend from the ground up. I enjoy
-              programming in C and Java, with skills in Python, JavaScript,
-              JavaScript Frameworks, Assembly, and others. I love software
-              development, it is my passion and one that I am looking to make
-              into a career.
+            I'm Jan Arvik, a computer science student enrolled at Virginia Tech and an avid developer in my free time. I proudly present my website, made using NEXTJS and React.
+            My programming repertoire includes expertise in languages such as C, Java, Python, JavaScript, JavaScript Frameworks, and Assembly, among others. Software development
+            holds a special place in my heart, serving as both my passion and the career path I aspire to pursue. I sincerely appreciate your visit to my website and encourage you 
+            to explore the projects showcased here. Should you have any inquiries or simply wish to discuss coding, I am always delighted to.
             </p>
           </div>
           <div className="flex justify-center gap-16 py-3 text-3xl text-gray-600 dark:text-white">
